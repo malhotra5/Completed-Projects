@@ -1,5 +1,5 @@
 def findMultSum(rang):
-    #Making array for multiples of 3 and 5
+    #Making a list for multiples of 3 and 5
     nums = []
     #Interating over the range in which we need to find multiples of 3 and 5
     for i in range(rang):
@@ -9,10 +9,10 @@ def findMultSum(rang):
             if i in nums:
                 pass
             else:
-                #Put the new number in the array
+                #Put the new number in the list
                 nums.append(i)
     sumed = 0
-    #Sum all the numbers in the array
+    #Sum all the numbers in the list
     for i in nums:
         sumed = sumed + i
     #Return sum
